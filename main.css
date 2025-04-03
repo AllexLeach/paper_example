@@ -1,0 +1,86 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+html, body {
+   width: 100dvw;
+   height: 100dvh;
+}
+
+main {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.form__name_action {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 2vh;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 1.75rem;
+}
+
+.form__name_action label {
+   font-weight: bold;
+}
+
+.form_input__name_action {
+   padding: 10px;
+   border: none;
+   border-radius: 10px;
+   background-color: rgb(196, 196, 196);
+   font-size: 1.25rem;
+}
+
+.form_input__name_action:focus-visible {
+   outline: none;
+}
+
+.form_button__name_action, .compliment_button {
+   padding: 10px;
+   border: none;
+   border-radius: 10px;
+   color: rgb(204 229 251);
+   background-color: rgb(34, 119, 194);
+   font-size: 1.25rem;
+   transition: all 1s ease;
+}
+
+.form_button__name_action:hover, .compliment_button:hover {
+   font-size: 1.45rem;
+   color: rgb(7, 89, 160);
+   background-color: rgb(204 229 251);
+   transition: all 1s ease;
+}
+
+.compliment {
+   display: none;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 2vh;
+}
+
+.compliment_box {
+   font-family: "Pacifico", cursive;
+   font-size: 2.25rem;
+   font-weight: 400;
+}
+
+.compliment_button {
+   color: rgb(251 204 204);
+   background-color: rgb(194 34 34);
+}
+
+.compliment_button:hover {
+   color: rgb(194 34 34);
+   background-color: rgb(251 204 204);
+}
+ 
